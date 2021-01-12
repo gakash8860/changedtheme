@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: _switchValue?Colors.white:Colors.blue,
+        backgroundColor: _switchValue?Colors.blueAccent:Colors.white12,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
